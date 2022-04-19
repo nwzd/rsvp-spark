@@ -20,7 +20,7 @@ public class SparkApp {
 
     private static final String KAFKA_BROKERS = "localhost:9092";
     private static final String KAFKA_TOPIC = "test-topic";
-    
+
 
     public static void main(String[] args) throws StreamingQueryException {
         System.setProperty("hadoop.home.dir", "/tmp/hadoop");
